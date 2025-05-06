@@ -1,10 +1,58 @@
-# macOS
-.DS_Store
+# Environment variables
+.env
+**/.env
 
 # Python
-__pycache__/
-*.pyc
-*.pyo
+**/__pycache__/
+**/*.py[cod]
+**/*.class
+**/*.so
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/downloads/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
 
-# VSCode
+# Django
+**/*.log
+**/local_settings.py
+**/db.sqlite3
+**/db.sqlite3-journal
+**/media/
+**/staticfiles/
+
+# Virtual Environment
+**/venv/
+**/ENV/
+**/env/
+
+# IDE
+.idea/
 .vscode/
+**/*.swp
+**/*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
